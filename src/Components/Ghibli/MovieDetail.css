@@ -4,3 +4,9 @@
     height: 300px;
     background-position: center;
 }
+.loading{
+    background: url('https://sociorocketnewsen.files.wordpress.com/2016/07/totoro-top.gif');
+    width: 150px;
+    height: 150px;
+    margin-left: 570px;
+}
