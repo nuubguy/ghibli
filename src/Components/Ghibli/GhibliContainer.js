@@ -28,7 +28,7 @@ export default class GhibliContainer extends Component {
         this.refs.iScroll.addEventListener("scroll", () => {
             if (this.refs.iScroll.scrollTop + this.refs.iScroll.clientHeight >=this.refs.iScroll.scrollHeight){
               console.log(this.state.items);
-              if(this.state.items<this.state.GhibliFilms.length-1){
+              if(this.state.items<this.state.GhibliFilms.length-2){
                   this.loadMoreItems();
               } 
             }
