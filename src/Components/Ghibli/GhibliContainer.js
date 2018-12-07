@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import GhibliService from '../../Api/GhibliService';
-import { Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './GhibliContainer.css';
 
 import {
-    Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button, Container, Row, Col, Alert,CardImgOverlay
+    Card, CardText, CardBody,
+    CardTitle, CardSubtitle, Button, Container, Row, Col
 } from 'reactstrap';
 
 
@@ -75,7 +75,7 @@ export default class GhibliContainer extends Component {
                                 </Card>
                             </Col>
                         ))}
-                    {this.state.loadingState ? <img className="loading" src="https://sociorocketnewsen.files.wordpress.com/2016/07/totoro-top.gif" width="150" height="150" /> : ""}
+                    {this.state.loadingState ? <img alt="" className="loading" src="https://sociorocketnewsen.files.wordpress.com/2016/07/totoro-top.gif" width="150" height="150" /> : ""}
  
                     </Row>
                 </Container>

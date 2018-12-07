@@ -26,7 +26,7 @@ class MovieDetail extends React.Component {
 
     render() {
         if(this.state.movie.length===0){
-            return <img className="loading" src="https://sociorocketnewsen.files.wordpress.com/2016/07/totoro-top.gif" width="150" height="150" /> 
+            return <img alt="" className="loading" src="https://sociorocketnewsen.files.wordpress.com/2016/07/totoro-top.gif" width="150" height="150" /> 
         }else{
             return (
                 <div>

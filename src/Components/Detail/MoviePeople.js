@@ -1,9 +1,7 @@
 import React from 'react'
 import GhibliService from '../../Api/GhibliService';
 import './Detail.css';
-import {
-    Jumbotron,Button
-    } from 'reactstrap';
+
 
 class MoviePeople extends React.Component {
     constructor(){

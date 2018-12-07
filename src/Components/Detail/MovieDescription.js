@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-Jumbotron,Button
+Jumbotron
 } from 'reactstrap';
 
 class MovieDescription extends React.Component {
