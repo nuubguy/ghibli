@@ -1,0 +1,61 @@
+.container {
+    height: 200vh;
+    margin:0;
+    padding:0;
+    width: 55vw;
+    float: right;
+    overflow:scroll;
+  }
+  .container::-webkit-scrollbar { 
+      display: none; 
+  }
+  ::-webkit-scrollbar { 
+      display: none; 
+  }
+
+  .checkFont{
+      font-size: 20px;
+  }
+  .checkFontMessage{
+    font-size: 40px;
+}
+
+  .check{
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 50px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+  
+
+
+
+  .item {
+    background-size: cover;
+    margin-left: 10vw;
+    margin-right: 5vw;
+    margin-top: 4vw;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 100%;
+    padding: 10px;
+    transition: 1s all;
+    box-shadow: 0 10px 20px 5px rgba(0,0,0,.2);
+  }
+
+  .item:nth-child(odd) {
+    float: left;
+  }
+  .item:nth-child(even) {
+      float: right;
+  }
+  .item:nth-child(odd) {
+    background: url('https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/1200px-Studio_Ghibli_logo.svg.png');
+    background-size: cover;
+    background-position: center; 
+  }
+  .item:nth-child(even) {
+        background: url('https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/1200px-Studio_Ghibli_logo.svg.png');
+        background-size: cover;
+      background-position: center; 
+  }
