@@ -65,7 +65,6 @@ export default class GhibliContainer extends Component {
                                 <Card key={data.title}>
                                     <CardBody>
                                         <CardTitle>{data.title}</CardTitle>
-                                        <CardSubtitle>Card subtitle</CardSubtitle>
                                         <CardText style={{maxHeight : '96px', overflow : 'hidden'}}>{data.description}</CardText>
                                         <Link to={`/movie/${data.id}`}>
                                             <Button>View</Button>
