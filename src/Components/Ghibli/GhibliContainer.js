@@ -14,7 +14,7 @@ export default class GhibliContainer extends Component {
         super();
         this.state = {
             GhibliFilms: [],
-            items: 6,
+            items: 8,
             loadingState: false    
         };
     }
@@ -28,7 +28,7 @@ export default class GhibliContainer extends Component {
         this.refs.iScroll.addEventListener("scroll", () => {
             if (this.refs.iScroll.scrollTop + this.refs.iScroll.clientHeight >=this.refs.iScroll.scrollHeight){
               console.log(this.state.items);
-              if(this.state.items<this.state.GhibliFilms.length-2){
+              if(this.state.items<this.state.GhibliFilms.length-1){
                   this.loadMoreItems();
               } 
             }
